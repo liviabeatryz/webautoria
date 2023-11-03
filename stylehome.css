@@ -1,0 +1,215 @@
+body{
+    background-color:rgb(26, 4, 38);
+}
+
+.container{
+    display: inline-block;
+    background-color: rgb(26, 4, 38);
+    box-shadow: 0px 3px 10px white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 90px;
+}
+
+
+.nome{
+    font-family: unset;
+    font-size: 30px;
+    color: rgb(255,255,255);
+    position: absolute;
+    margin-left: 7rem;
+    margin-top: -2.5rem;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 15px;
+    margin-right: 18rem;
+    margin-top: -6px;
+}
+.menu li{
+    text-align: center;
+    margin-right: 80px;
+    margin-bottom:-55px;
+    align-content: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+.menu ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(4,6,38);
+    margin: auto;
+    border-top: 16px;
+}
+.informação img{
+    width: 500px;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 3px 10px white;
+}
+.informação{
+    display: flex;
+}
+.informação img, a{
+    display:inline-block;
+}
+.informação a{
+    text-align: center;
+    font-family: unset;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 5rem;
+    font-size: 20px;
+    color: white;
+    
+}
+.informação a h1{
+    font-family: unset;
+    font-size: 28px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color:rgb(4,6,38);
+    color: rgb(255,255,255);
+}
+.informação #p1{
+    font-family: unset;
+    font-size: 20px;
+    margin-top: 3rem;
+    text-indent: 4px;
+    color: white;
+
+}
+.exemplos h2{
+    font-family: unset;
+    font-size: 28px;
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
+    padding-left: 30rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(255,255,255);
+    background-color:rgb(4, 6, 38);
+}
+.exemplos a, ul{
+    display: inline-block;
+}
+.exemplos ul li{
+    display: inline-block;
+}
+.exemplos li img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-top: 3rem;
+    box-shadow: 0px 3px 10px #ffffff46;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+.agenda h3{
+    font-family: unset;
+    font-size: 28px;
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
+    padding-left: 29rem;
+    padding-right: 30rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(255,255,255);
+    background-color: rgb(4, 6, 38);
+}
+#tabela{
+    margin-left: 20rem;
+    margin-bottom: 4rem;
+}
+#tabela tr{ 
+    background-color: white;
+    border-color: 10px rgb(2, 2, 255);
+}
+#tabela td{
+
+    background-color: white;
+    padding: 6px;
+}
+.contato h4{
+    font-family: unset;
+    font-size: 28px;
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
+    padding-left: 30rem;
+    padding-right: 29rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(255,255,255);
+    background-color: rgb(4, 6, 38);
+
+}
+.contato #p2{
+    margin-top: 3rem;
+    font-family: unset;
+    font-size: 20px;
+    text-indent: 4rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+}
+#insta, #face{
+    display: inline-block;
+    padding-left: 16px;
+}
+#insta img{
+    width: 40px;
+    height: 40px;
+    margin-left: 40rem;
+}
+#face img{
+    width: 40px;
+    height: 40px;
+}
+.inscrever h5{
+    font-family: unset;
+    font-size: 28px;
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
+    padding-left: 26rem;
+    padding-right: 20rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(255,255,255);
+    background-color: rgb(26, 4, 38);
+}
+.inscrever #p3{
+    margin-top: 3rem;
+    font-family: unset;
+    font-size: 20px;
+    text-indent: 4rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+}
+.inscrever a{
+    color: rgb(250, 104, 93);
+    list-style-type: none;
+    font-size: 27px;
+    text-decoration: none;
+}
+.inscrever li{
+    background-color: rgb(26, 4, 38);
+    list-style-type: none;
+    margin-left: 40rem;
+    margin-right: 43.5rem;
+    margin-bottom: 3rem;
+}

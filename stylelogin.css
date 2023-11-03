@@ -1,0 +1,84 @@
+/*style do login*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:rgb(35, 4, 38);
+}
+
+section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color:rgb(4, 6, 38);
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+section h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    margin-bottom: 15px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 16px;   
+}
+
+form button{
+    padding: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+}
+section a{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    margin-left: 15rem;
+}
+
+section a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    text-decoration: none;
+}
